@@ -33,7 +33,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>Orion-Antivirus.ico</ApplicationIcon>
+    <ApplicationIcon>
+    </ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
     <StartupObject>
@@ -89,16 +90,12 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Orion Antivirus.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Antivirus-Program-Background.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\Orion-Antivirus.png" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Orion-Antivirus.ico" />
+    <Content Include="Resources\check4.png" />
+    <Content Include="Resources\Orion-Antivirus.ico" />
+    <Content Include="Resources\red-x.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
