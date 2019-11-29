@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.29503.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrionAntivirus", "OrionAntivirus\OrionAntivirus.csproj", "{6B8824EE-B110-4BCE-8EAE-B603902EBC77}"
 EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Orion-Antivirus-Installer", "Orion-Antivirus-Installer\Orion-Antivirus-Installer.vdproj", "{3513435A-5A01-4482-A0E7-6386B2AD5EB9}"
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Orion Antivirus", "Orion Antivirus\Orion Antivirus.vdproj", "{394C2F19-30F2-4E44-966C-927303808450}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,9 +17,8 @@ Global
 		{6B8824EE-B110-4BCE-8EAE-B603902EBC77}.Debug|Any CPU.Build.0 = Release|Any CPU
 		{6B8824EE-B110-4BCE-8EAE-B603902EBC77}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B8824EE-B110-4BCE-8EAE-B603902EBC77}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3513435A-5A01-4482-A0E7-6386B2AD5EB9}.Debug|Any CPU.ActiveCfg = Release
-		{3513435A-5A01-4482-A0E7-6386B2AD5EB9}.Debug|Any CPU.Build.0 = Release
-		{3513435A-5A01-4482-A0E7-6386B2AD5EB9}.Release|Any CPU.ActiveCfg = Release
+		{394C2F19-30F2-4E44-966C-927303808450}.Debug|Any CPU.ActiveCfg = Debug
+		{394C2F19-30F2-4E44-966C-927303808450}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
