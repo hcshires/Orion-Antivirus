@@ -18,4 +18,4 @@ The Algorithm consists of generating an MD5 hash checksum for the user's file an
 
 Thank you for using Orion Antivirus and your support for Velotics Technologies! Please submit feedback or feature requests below. Visit our website for more products and information: https://veloticstechnologies.github.io/
 
--- Henry Shires, Lead Developer
+-- Henry Shires
