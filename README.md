@@ -3,12 +3,12 @@ A file-based antivirus that contains a list of MD5 hashes from known malware, co
 
 Latest Release: https://github.com/hcshires/Orion-Antivirus/releases/tag/v1.0.0
 
-# Use Orion Antivirus to:
+## Use Orion Antivirus to:
 - Browse for a file to scan
 - Orion Antivirus will automatically determine if it is infected
 - Optionally delete the infected file (clean files will not be able to be deleted via the program)
 
-# Features include:
+## Features
 - Relatively fast scanner algorithm
 - Complete deletion of infected files
 - Simple, modern, and easy-to-use interface
