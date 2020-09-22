@@ -16,6 +16,6 @@ Latest Release: https://github.com/hcshires/Orion-Antivirus/releases/latest
 
 The Algorithm consists of generating an MD5 hash checksum for the user's file and comparing it with a list of known malware MD5 hashes in a text file. This program is open source and free to download and use on Windows machines with .NET 4.6.1 or higher.
 
-Thank you for using Orion Antivirus! Please submit feedback or feature requests below. Visit our website for more products and information: https://hcshires.github.io/
+Thank you for using Orion Antivirus! Please submit feedback or feature requests below. Visit my website for other projects and information: https://hcshires.github.io/
 
 -- Henry Shires
