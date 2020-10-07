@@ -13,7 +13,7 @@ The Algorithm consists of generating an MD5 hash checksum for the user's file an
 
 ## Download
 
-Download the latest release here: https://github.com/hcshires/Orion-Antivirus/releases/latest
+Download the latest release here (Windows x64): https://github.com/hcshires/Orion-Antivirus/releases/latest
 
 ![image](https://user-images.githubusercontent.com/25646224/69892190-8c033100-12c8-11ea-9f4b-144e8689c46f.png)
 
