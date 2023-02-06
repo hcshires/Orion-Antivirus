@@ -45,14 +45,14 @@
             this.label6 = new System.Windows.Forms.Label();
             this.hashTxt = new System.Windows.Forms.TextBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.isInfectedLbl = new System.Windows.Forms.Label();
             this.deleteBtn = new System.Windows.Forms.Button();
-            this.websiteLink = new System.Windows.Forms.LinkLabel();
-            this.deleteTimer = new System.Windows.Forms.Timer(this.components);
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.scanLog = new System.Windows.Forms.RichTextBox();
+            this.websiteLink = new System.Windows.Forms.LinkLabel();
+            this.deleteTimer = new System.Windows.Forms.Timer(this.components);
             this.deleteTip = new System.Windows.Forms.ToolTip(this.components);
             this.browseTip = new System.Windows.Forms.ToolTip(this.components);
-            this.isInfectedLbl = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.logo)).BeginInit();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -96,6 +96,7 @@
             this.label1.TabIndex = 2;
             this.label1.Text = "ORION ANTIVIRUS";
             this.label1.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -215,6 +216,15 @@
             this.tabPage2.Text = "Delete Infected File";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
+            // isInfectedLbl
+            // 
+            this.isInfectedLbl.AutoSize = true;
+            this.isInfectedLbl.Location = new System.Drawing.Point(6, 115);
+            this.isInfectedLbl.Name = "isInfectedLbl";
+            this.isInfectedLbl.Size = new System.Drawing.Size(50, 18);
+            this.isInfectedLbl.TabIndex = 6;
+            this.isInfectedLbl.Text = "Delete?";
+            // 
             // deleteBtn
             // 
             this.deleteBtn.Location = new System.Drawing.Point(6, 136);
@@ -224,22 +234,6 @@
             this.deleteBtn.Text = "Delete";
             this.deleteBtn.UseVisualStyleBackColor = true;
             this.deleteBtn.Click += new System.EventHandler(this.DeleteBtn_Click);
-            // 
-            // websiteLink
-            // 
-            this.websiteLink.AutoSize = true;
-            this.websiteLink.LinkArea = new System.Windows.Forms.LinkArea(0, 16);
-            this.websiteLink.Location = new System.Drawing.Point(773, 78);
-            this.websiteLink.Name = "websiteLink";
-            this.websiteLink.Size = new System.Drawing.Size(86, 13);
-            this.websiteLink.TabIndex = 6;
-            this.websiteLink.TabStop = true;
-            this.websiteLink.Text = "Velotics Website";
-            this.websiteLink.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.WebsiteLink_LinkClicked);
-            // 
-            // deleteTimer
-            // 
-            this.deleteTimer.Tick += new System.EventHandler(this.DeleteTimer_Tick);
             // 
             // tabPage3
             // 
@@ -260,14 +254,21 @@
             this.scanLog.TabIndex = 0;
             this.scanLog.Text = "";
             // 
-            // isInfectedLbl
+            // websiteLink
             // 
-            this.isInfectedLbl.AutoSize = true;
-            this.isInfectedLbl.Location = new System.Drawing.Point(6, 115);
-            this.isInfectedLbl.Name = "isInfectedLbl";
-            this.isInfectedLbl.Size = new System.Drawing.Size(50, 18);
-            this.isInfectedLbl.TabIndex = 6;
-            this.isInfectedLbl.Text = "Delete?";
+            this.websiteLink.AutoSize = true;
+            this.websiteLink.LinkArea = new System.Windows.Forms.LinkArea(0, 16);
+            this.websiteLink.Location = new System.Drawing.Point(773, 78);
+            this.websiteLink.Name = "websiteLink";
+            this.websiteLink.Size = new System.Drawing.Size(86, 13);
+            this.websiteLink.TabIndex = 6;
+            this.websiteLink.TabStop = true;
+            this.websiteLink.Text = "Velotics Website";
+            this.websiteLink.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.WebsiteLink_LinkClicked);
+            // 
+            // deleteTimer
+            // 
+            this.deleteTimer.Tick += new System.EventHandler(this.DeleteTimer_Tick);
             // 
             // App
             // 

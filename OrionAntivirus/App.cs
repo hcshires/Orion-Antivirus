@@ -140,5 +140,10 @@ namespace OrionAntivirus
                 deleteProgress.Value += 10;
             }
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
